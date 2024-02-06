@@ -813,6 +813,16 @@ a {
   margin-top: 30px;
 }
 
+.article__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 5px;
+}
 .article__date-small {
   opacity: 0.541;
   font-size: 12px;
@@ -820,10 +830,6 @@ a {
 .article__title-small {
   margin: 0;
 }
-.article__title-link {
-  margin: 0;
-}
-
 .form__label {
   width: 100%;
 }
